@@ -1,0 +1,53 @@
+.container-fluid{
+    background-image: -webkit-linear-gradient(-80deg, rgba(245, 40, 145, 0.13) 50%, white 50%);
+    min-height: 500px;
+}
+.text__color{
+    color: #4E598C;
+}
+.list__styling{
+    list-style: none;
+}
+.text__orange{
+    color: #F2994A;
+}
+.text__red{
+    color: red;
+}
+.button__orange{
+    background: linear-gradient(180deg, #F2C94C 0%, #F2994A 100%);
+}
+.bg__blue{
+    background-color: #2F80ED;
+}
+.border__blue{
+    border-color: #817E9E;
+}
+.table__text{
+    color: #4E598C;
+}
+.table__data{
+    width: 86%;
+}
+.table__data2{
+    width: 66%;
+}
+.text__green{
+    color: green;
+}
+*{
+    font-family: "PT Sans";
+}
+
+
+/*-----MEDIA QUERIES (MEDIUM DEVICES) --------- */
+@media screen and (max-width: 1024px) {
+    .table__data{
+        width: 82%;
+    }
+}
+
+/*-----MEDIA QUERIES (SMALL DEVICES) --------- */
+@media screen and (max-width: 600px) {
+    
+}
